@@ -16,4 +16,8 @@ function Main(){
     window.location.href = "index.html";
 }
 
+function PastWork(){
+    window.location.href = "PastWork.html";
+}
+
 //Fun\\

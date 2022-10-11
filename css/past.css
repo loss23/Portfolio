@@ -71,49 +71,43 @@ body {
     cursor: pointer;
 }
 
-.main video {
-    width: 45%;
+.Vid1 {
+    width: 850px;
     position: relative;
-    left: 25px;
-    top: 75px;
+    top: 145px;
     box-shadow: 0 12px 16px 0 rgb(75, 3, 170), 0 17px 50px 0 rgb(0, 0, 0);
 }
 
-.item1 {
+.Art1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    color: rgba(240, 248, 255, 0.815);
+    width: 815px;
     position: relative;
-    left: 50%;
+    left: 950px;
     bottom: 250px;
-    color: #F9F5FF;
-    font-size: 35px;
-    width:750px;
-    word-wrap: break-word;
 }
 
-.item2 {
+.Code1 {
+    width: 850px;
+    bottom: 100px;
+    left: 850px;
     position: relative;
-    left: 5%;
-    top: 95px;
-    color: #F9F5FF;
-    font-size: 35px;
-    width:750px;
-    word-wrap: break-word;
-}
-
-.Video2 {
-    width: 95%;
-    position: relative;
-    left: 55%;
-    bottom: 225px;
     box-shadow: 0 12px 16px 0 rgb(75, 3, 170), 0 17px 50px 0 rgb(0, 0, 0);
 }
 
-.Info1 {
+.Code2 {
+    width: 850px;
+    right: 750px;
+    bottom: 65px;
     position: relative;
-    left: 22%;
-    top: 125%;
-    color: #ffffff;
-    font-size: 25px;
-    width:1000px;
-    word-wrap: break-word;
     box-shadow: 0 12px 16px 0 rgb(75, 3, 170), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+.Desc1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgba(240, 248, 255, 0.815);
+    position: relative;
+    left: 155px;
 }
