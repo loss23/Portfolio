@@ -15,3 +15,5 @@ function Pinguin(){
 function Main(){
     window.location.href = "index.html";
 }
+
+//Fun\\
