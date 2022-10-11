@@ -62,3 +62,13 @@ body {
     left: 55%;
     top: 25px;
 }
+
+.section2 info1 {
+    position: absolute;
+    right: 50%;
+    top: 75%;
+    color: #F9F5FF;
+    font-size: 35px;
+    width:750px;
+    word-wrap: break-word;
+}
