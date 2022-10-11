@@ -1,5 +1,5 @@
 body {
-    background-image: url("src/BACKGROUND.jpg");
+    background-image: url("../src/BACKGROUND.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
@@ -20,7 +20,7 @@ body {
     width: 135px;
 }
 
-.navbar h2 {
+.RoGroup {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: rgba(240, 248, 255, 0.815);
@@ -31,13 +31,28 @@ body {
 }
 
 
+.Pinguin {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.815);
+    width: 115px;
+    position: absolute;
+    top: 0px;
+    left: 240px;;
+}
+
 .navbar h1:hover {
     color: rgb(107, 107, 107);
     cursor: pointer;
 }
 
-.navbar h2:hover {
+.RoGroup:hover {
     color: rgb(103, 136, 207);
+    cursor: pointer;
+}
+
+.Pinguin:hover {
+    color: rgb(255, 0, 0);
     cursor: pointer;
 }
 
