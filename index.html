@@ -20,7 +20,7 @@
                     <a>Info</a>
                 </li>
                 <li class="l3">
-                    <a>Contact</a>
+                    <a onclick="contact()">Contact</a>
                 </li>
             </ul>
         </div>
@@ -54,3 +54,12 @@
     </div>
 </body>
 </html>
+
+<script>
+    function contact() {
+        window.location.assign("/Pages/Contact.html")
+    }
+    function info() {
+        window.location.assign("/Pages/Info.html")
+    }
+</script>
