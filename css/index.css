@@ -1,10 +1,12 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    transition: 1.2s;
 
     background-color: rgb(0, 0, 0);
-    background-image: url("../src/bckg.gif");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url("../src/bckg_img.jpg");
+    background-size: -5vw;
     background-position: 0vw;
     background-attachment: scroll;
     background-position-y: 2vw;
@@ -15,28 +17,81 @@ body {
 
     text-align: center;
 }
+@media only screen and (max-width: 1026px) {
+    .Navbar {
+        font-size: 5vw;
+    }
+  }
 
 .Navbar {
+    transition: 1.2s;
     background-color: rgb(19, 19, 19);
     position: relative;
     font-size: 1.5vw;
-    top: -2.5vw;
+    top: -2vw;
     right: 0vw;
     left: -.6vw;
     width: 100vw;
-
-    display: inline-flex;
-    justify-content: center;
-    padding: 1;
-    list-style-type: none;
-    list-style: none;
+    height: 4vw;
 }
 
 .Navbar ul {
-    position: relative;
-    display: grid;
-    gap: 1.2vw 1.2vw;
+    transition: 1.2s;
+    text-align: center;
+
+    list-style-type: none;
+	list-style: none;
+	padding-top: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
 }
+.l1 {
+    transition: 1.2s;
+    text-decoration: underline;
+
+    position: relative;
+    left: 44vw;
+    font-size: 3.5vw;
+    width: min-content;
+    z-index: 5;
+}
+.l2 {
+    transition: 1.2s;
+
+    position: relative;
+    left: 35vw;
+    top: -4vw;
+    font-size: 3.5vw;
+    z-index: 5;
+    width: min-content;
+}
+.l3 {
+    transition: 1.2s;
+    
+    position: relative;
+    left: 55.5vw;
+    top: -8.5vw;
+    font-size: 3.5vw;
+    width: min-content;
+    z-index: 5;
+}
+
+.l1:hover {
+    cursor: grab;
+    color: rgb(124, 0, 196);
+
+}
+.l2:hover {
+    cursor: grab;
+    color: rgb(124, 0, 196);
+
+}
+.l3:hover {
+    cursor: grab;
+    color: rgb(124, 0, 196);
+
+}
+
 
 .div1 {
     position: relative;
@@ -47,4 +102,104 @@ body {
     position: relative;
     text-align: center;
     top: -4vw;
+}
+
+.box1 {
+    width: min-content;
+    height: auto;
+    position: relative;
+    left: -8vw;
+
+    transition: 1.2s;
+}
+.IP1  {
+    height: 30vw;
+    position: absolute;
+    left: 70vw;
+    bottom: 7.5vw;
+
+    width: min-content;
+}
+
+.HP1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(194, 141, 255);
+    -webkit-text-stroke: .1vw rgb(0, 0, 0);
+    text-align: center;
+    width: 55vw;
+    position: relative;
+    left: 10vw;
+    bottom: 8vw;
+    font-size: 3vw;
+
+    background-color: rgba(147, 53, 241, 0.945);
+    border-radius: .4vw;
+    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.842);
+}
+.P1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(194, 141, 255);
+    -webkit-text-stroke: .1vw rgb(0, 0, 0);
+    text-align: center;
+    width: 55vw;
+    position: relative;
+    left: 10vw;
+    bottom: 10.2vw;
+    font-size: 3vw;
+
+    background-color: rgba(147, 53, 241, 0.6);
+    border-radius: 0vw;
+    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.945);
+}
+
+
+
+
+.box2 {
+    width: min-content;
+    height: auto;
+    position: relative;
+    left: 21vw;
+    bottom: 3.5vw;
+
+    transition: 1.2s;
+}
+
+.HP2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(194, 141, 255);
+    -webkit-text-stroke: .1vw rgb(0, 0, 0);
+    text-align: center;
+    width: 65vw;
+    position: relative;
+    left: 10vw;
+    bottom: 8vw;
+    font-size: 3vw;
+
+    background-color: rgba(147, 53, 241, 0.945);
+    border-radius: .4vw;
+    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.842);
+}
+.P2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(194, 141, 255);
+    -webkit-text-stroke: .1vw rgb(0, 0, 0);
+    text-align: center;
+    width: 65vw;
+    position: relative;
+    left: 10vw;
+    bottom: 10.2vw;
+    font-size: 3vw;
+
+    background-color: rgba(147, 53, 241, 0.6);
+    border-radius: 0vw;
+    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.945);
+}
+.IP2  {
+    height: 30vw;
+    position: absolute;
+    left: -21vw;
+    bottom: 18vw;
+
+    width: min-content;
 }
