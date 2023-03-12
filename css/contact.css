@@ -21,6 +21,15 @@ body {
     .Navbar {
         font-size: 5vw;
     }
+    .Main {
+        position: relative;
+        text-align: center;
+        right: 0vw;
+        width: min-content;
+    }
+    .Main li {
+        font-size: 6vw;
+    }
   }
 
 .Navbar {
@@ -118,4 +127,18 @@ body {
 
 .Main a {
     color:rgb(159, 36, 230);
+}
+
+.Box1 {
+    width: 85vw;
+    font-size: 4.5vw;
+    position: relative;
+    background-color: rgba(56, 0, 108, 0.539);
+    border-radius: 2vw;
+    bottom: 15vw;
+    left: 6vw;
+}
+
+.Box1 p {
+    color:rgb(175, 79, 231);
 }
