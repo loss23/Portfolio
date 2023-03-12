@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmpireZ - Streaming</title>
+    <title>Loser's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="src/WebDevLogos.png">
+
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    
 </head>
 <body>
 
@@ -14,10 +17,10 @@
         <div class="font-effect-neon">
             <ul>
                 <li class="l1">
-                    <a>Home</a>
+                    <a onclick="home()">Home</a>
                 </li>
                 <li class="l2">
-                    <a>Info</a>
+                    <a onclick="info()">Info</a>
                 </li>
                 <li class="l3">
                     <a onclick="contact()">Contact</a>
@@ -55,11 +58,5 @@
 </body>
 </html>
 
-<script>
-    function contact() {
-        window.location.assign("/Pages/Contact.html")
-    }
-    function info() {
-        window.location.assign("/Pages/Info.html")
-    }
-</script>
+
+<script src="../js/Main.js"></script>
