@@ -92,114 +92,30 @@ body {
 
 }
 
-
-.div1 {
-    position: relative;
-    text-align: center;
-    top: -5vw;
-}
-.div1_b {
-    position: relative;
-    text-align: center;
-    top: -4vw;
-}
-
-.box1 {
-    width: min-content;
-    height: auto;
-    position: relative;
-    left: -8vw;
-
-    transition: 1.2s;
-}
-.IP1  {
-    height: 30vw;
-    position: absolute;
-    left: 70vw;
-    bottom: 7.5vw;
-
-    width: min-content;
-}
-
-.HP1 {
+.Main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(194, 141, 255);
-    -webkit-text-stroke: .1vw rgb(0, 0, 0);
     text-align: center;
-    width: 55vw;
-    position: relative;
-    left: 10vw;
-    bottom: 8vw;
-    font-size: 3vw;
-
-    background-color: rgba(147, 53, 241, 0.945);
-    border-radius: .4vw;
-    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.842);
 }
-.P1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(194, 141, 255);
-    -webkit-text-stroke: .1vw rgb(0, 0, 0);
+
+.Main h1 {
+    font-size: 8.5vw;
+    position: relative;
+    bottom: 9vw;
+
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.Main ul {
+    position: relative;
+    bottom: 12.5vw;
+    font-size: 5vw;
     text-align: center;
-    width: 55vw;
-    position: relative;
-    left: 10vw;
-    bottom: 10.2vw;
-    font-size: 3vw;
 
-    background-color: rgba(147, 53, 241, 0.6);
-    border-radius: 0vw;
-    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.945);
+    list-style-type: none;
+	list-style: none;
 }
 
-
-
-
-.box2 {
-    width: min-content;
-    height: auto;
-    position: relative;
-    left: 21vw;
-    bottom: 2vw;
-
-    transition: 1.2s;
-}
-
-.HP2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(194, 141, 255);
-    -webkit-text-stroke: .1vw rgb(0, 0, 0);
-    text-align: center;
-    width: 65vw;
-    position: relative;
-    left: 10vw;
-    bottom: 8vw;
-    font-size: 3vw;
-
-    background-color: rgba(147, 53, 241, 0.945);
-    border-radius: .4vw;
-    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.842);
-}
-.P2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(194, 141, 255);
-    -webkit-text-stroke: .1vw rgb(0, 0, 0);
-    text-align: center;
-    width: 65vw;
-    position: relative;
-    left: 10vw;
-    bottom: 10.2vw;
-    font-size: 3vw;
-
-    background-color: rgba(147, 53, 241, 0.6);
-    border-radius: 0vw;
-    box-shadow: 0vw 0vw 3vw 0vw rgba(147, 53, 241, 0.945);
-}
-.IP2  {
-    height: 30vw;
-    position: absolute;
-    left: -21vw;
-    bottom: 18vw;
-
-    width: min-content;
+.Main a {
+    color:rgb(159, 36, 230);
 }
